@@ -16,8 +16,8 @@ Chaque équipe travaillera sur **une version du portfolio**, composée de :
 
 | Membre | Rôle | Responsabilités principales |
 |--------|------|-----------------------------|
-| [Nom du Membre 1] | HTML Developer | Créer la structure du site (`index.html`) |
-| [Nom du Membre 2] | CSS Designer | Styliser le site (`style.css`) |
+| Abderrahmane Raquibi | HTML Developer | Créer la structure du site (`index.html`) |
+| Hasnae | CSS Designer | Styliser le site (`style.css`) |
 
 ---
 
@@ -26,8 +26,8 @@ Chaque équipe travaillera sur **une version du portfolio**, composée de :
 
 | Membre | Rôle | Responsabilités principales |
 |--------|------|-----------------------------|
-| [Nom du Membre 3] | HTML Developer | Créer la structure du site (`index.html`) |
-| [Nom du Membre 4] | CSS Designer | Styliser le site (`style.css`) |
+| Oussama akabli | HTML Developer | Créer la structure du site (`index.html`) |
+| Yassamine Ouassas | CSS Designer | Styliser le site (`style.css`) |
 
 ---
 
@@ -81,9 +81,9 @@ Chaque équipe travaillera sur **une version du portfolio**, composée de :
 
 | Étape | Équipe | Tâche | Durée estimée |
 |-------|---------|-------|---------------|
-| 1 | 1 & 2 | Conception de la structure HTML | 2 jours |
-| 2 | 1 & 2 | Stylisation CSS et design responsive | 3 jours |
-| 3 | Tous | Revue de code, test et présentation | 1 jour |
+| 1 | 1 & 2 | Conception de la structure HTML | 12 jours |
+| 2 | 1 & 2 | Stylisation CSS et design responsive | 13 jours |
+| 3 | Tous | Revue de code, test et présentation | 2 jour |
 
 ---
 
@@ -107,6 +107,6 @@ Ce projet nous permet de :
 
 ---
 
-✏️ **Rédigé par :** L’équipe de développement web  
+✏️ **Rédigé par :** PixelCraft
 📅 **Date de création :** 11 octobre 2025  
-💼 **Projet :** Portfolio d’Équipe v1
+💼 **Projet :** Portfolio d’Équipe PixelCraft

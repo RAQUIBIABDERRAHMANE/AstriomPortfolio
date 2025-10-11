@@ -1,0 +1,60 @@
+/* Styles de base pour le portfolio */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Section d’accueil */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #00b4db, #0083b0);
+  color: white;
+  padding: 100px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: white;
+  color: #0083b0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #0083b0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Projets */
+.project {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #0083b0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

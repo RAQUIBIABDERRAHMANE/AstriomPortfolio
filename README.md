@@ -4,10 +4,6 @@ Un site web moderne et responsive de **portfolio d’équipe**, développé en *
 Ce projet présente notre **équipe de développement web**, nos compétences, nos membres et nos projets communs dans un design élégant et professionnel.
 
 ---
-## Documentation
-- [Instructions](INSTRUCTIONS.md)
-
----
 
 ## 🚀 Présentation
 

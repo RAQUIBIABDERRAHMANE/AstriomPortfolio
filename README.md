@@ -5,9 +5,7 @@ Ce projet présente notre **équipe de développement web**, nos compétences, n
 
 ---
 ## Documentation
-- [Installation](INSTALL.md)
-- [Contributing](CONTRIBUTING.md)
-- [API Reference](docs/API.md)
+- [Instructions](INSTRACTIONS.md)
 
 ---
 

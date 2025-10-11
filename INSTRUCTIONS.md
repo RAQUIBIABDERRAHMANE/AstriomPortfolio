@@ -17,7 +17,7 @@ Chaque équipe travaillera sur **une version du portfolio**, composée de :
 | Membre | Rôle | Responsabilités principales |
 |--------|------|-----------------------------|
 | Abderrahmane Raquibi | HTML Developer | Créer la structure du site (`index.html`) |
-| Hasnae | CSS Designer | Styliser le site (`style.css`) |
+| Hasnae Array | CSS Designer | Styliser le site (`style.css`) |
 
 ---
 
@@ -26,7 +26,7 @@ Chaque équipe travaillera sur **une version du portfolio**, composée de :
 
 | Membre | Rôle | Responsabilités principales |
 |--------|------|-----------------------------|
-| Oussama akabli | HTML Developer | Créer la structure du site (`index.html`) |
+| Oussama Akabli | HTML Developer | Créer la structure du site (`index.html`) |
 | Yassamine Ouassas | CSS Designer | Styliser le site (`style.css`) |
 
 ---
@@ -107,6 +107,6 @@ Ce projet nous permet de :
 
 ---
 
-✏️ **Rédigé par :** PixelCraft 
+✏️ **Rédigé par :** PixelCraft  
 📅 **Date de création :** 11 octobre 2025  
 💼 **Projet :** Portfolio d’Équipe PixelCraft

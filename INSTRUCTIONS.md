@@ -107,6 +107,6 @@ Ce projet nous permet de :
 
 ---
 
-✏️ **Rédigé par :** PixelCraft
+✏️ **Rédigé par :** PixelCraft 
 📅 **Date de création :** 11 octobre 2025  
 💼 **Projet :** Portfolio d’Équipe PixelCraft

@@ -5,7 +5,7 @@ Ce projet présente notre **équipe de développement web**, nos compétences, n
 
 ---
 ## Documentation
-- [Instructions](INSTRACTIONS.md)
+- [Instructions](INSTRUCTIONS.md)
 
 ---
 

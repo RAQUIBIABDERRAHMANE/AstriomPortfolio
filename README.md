@@ -1,6 +1,6 @@
-# 🌐 Portfolio d'Équipe v1
+# 🌐 Portfolio d'PixelCraft
 
-Un site web moderne et responsive de **portfolio d’équipe**, développé en **HTML et CSS**.  
+Un site web moderne et responsive de **portfolio d’équipe PixelCraft**, développé en **HTML et CSS**.  
 Ce projet présente notre **équipe de développement web**, nos compétences, nos membres et nos projets communs dans un design élégant et professionnel.
 
 ---
@@ -55,4 +55,4 @@ Il est entièrement responsive, simple à maintenir et pensé pour un rendu prof
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/votreutilisateur/team-portfolio-v1.git
+   git clone https://gitea.raquibi.space/PixelCraft/Portfolio.git

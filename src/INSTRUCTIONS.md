@@ -73,6 +73,8 @@ In the next section, they **switch roles** to keep the work balanced.
 ```bash
 git clone https://github.com/Atriom/portfolio.git
 cd portfolio
+# or if already have it make :
+git pull
 ```
 
 ### 🪜 Step 2 — Build Your Section

@@ -1,112 +1,72 @@
-# 🌐 Portfolio d’Équipe v1
+# 👥 Atriom Team Instructions
 
-## 🧭 Organisation du Travail d’Équipe
-
-Notre projet **Portfolio d’Équipe v1** sera réalisé par **deux équipes**.  
-Chaque équipe travaillera sur **une version du portfolio**, composée de :
-- 1 membre responsable du **HTML** (structure du site)
-- 1 membre responsable du **CSS** (mise en forme et design)
+These instructions define how our team will collaborate to build the **Atriom Portfolio Website** efficiently and consistently.
 
 ---
 
-### 👥 Répartition des Équipes
+## 🧩 1. Project Overview
 
-#### 🧩 Équipe 1
-**Objectif :** Créer la première version du site web du portfolio.
+The portfolio website will include the following sections:
 
-| Membre | Rôle | Responsabilités principales |
-|--------|------|-----------------------------|
-| Abderrahmane Raquibi | HTML Developer | Créer la structure du site (`index.html`) |
-| Hasnae Array | CSS Designer | Styliser le site (`style.css`) |
+1. **Hero Section** – Introduction and main call-to-action  
+2. **Our Services** – Presentation of services offered  
+3. **Technologies** – Technologies we use  
+4. **Projects** – Showcase of completed work  
+5. **Reviews** – Client feedback and testimonials  
+6. **Contact** – Contact form and social links  
 
----
-
-#### 🧩 Équipe 2
-**Objectif :** Créer la deuxième version du site web du portfolio.
-
-| Membre | Rôle | Responsabilités principales |
-|--------|------|-----------------------------|
-| Oussama Akabli | HTML Developer | Créer la structure du site (`index.html`) |
-| Yassamine Ouassas | CSS Designer | Styliser le site (`style.css`) |
+Each section is stored in its **own folder** with its own HTML and CSS files.
 
 ---
 
-## 🛠️ Responsabilités Détaillées
+## 🗂️ 2. Folder & File Structure
 
-### 🧱 Développeur HTML
-- Créer la structure complète du site en HTML5.  
-- Utiliser des balises sémantiques (`header`, `main`, `section`, `footer`, etc.).  
-- Ajouter le contenu : titres, paragraphes, images, liens, formulaires.  
-- Donner des **classes** et **identifiants** clairs et bien nommés.  
-- Organiser le code proprement avec des **commentaires**.  
-- Communiquer avec le designer CSS pour faciliter le style.
-
-### 🎨 Designer CSS
-- Créer et relier le fichier `style.css` au fichier HTML.  
-- Styliser chaque section du site selon la structure fournie.  
-- Utiliser **Flexbox** ou **Grid** pour les mises en page.  
-- Créer un design moderne, harmonieux et responsive (mobile/tablette/PC).  
-- Ajouter des effets au survol, des transitions et une bonne typographie.  
-- Maintenir un code propre et lisible.
-
----
-
-## 🔁 Méthode de Collaboration
-
-1. **Chaque équipe** crée son propre dossier :  
-   - `/team1/`  
-   - `/team2/`  
-   Chaque dossier contient :  
-     ```
-     index.html  
-     style.css  
-     images/
-     ```
-
-2. Les deux membres d’une équipe travaillent ensemble :  
-   - Le membre HTML construit la structure.  
-   - Le membre CSS applique le design sur la base du fichier HTML.
-
-3. **Communication constante :**
-   - Se mettre d’accord sur les noms de classes et d’éléments.  
-   - Vérifier régulièrement le rendu visuel ensemble.
-
-4. **Une fois le travail terminé :**
-   - Les deux équipes présentent leur version du portfolio.  
-   - On compare les deux résultats et on échange sur les différences et améliorations possibles.
+Atriom/
+│
+├── index.html
+├── css/
+│ └── global.css
+├── Services/
+│ ├── index.html
+│ └── style.css
+├── Technologies/
+│ ├── index.html
+│ └── style.css
+├── Projects/
+│ ├── index.html
+│ └── style.css
+├── Reviews/
+│ ├── index.html
+│ └── style.css
+├── Contact/
+│ ├── index.html
+│ └── style.css
+└── assets/
+├── images/
+├── icons/
+└── fonts/
 
 ---
 
-## 📅 Plan de Travail (Suggestion)
+## 👥 3. Team Roles
 
-| Étape | Équipe | Tâche | Durée estimée |
-|-------|---------|-------|---------------|
-| 1 | 1 & 2 | Conception de la structure HTML | 12 jours |
-| 2 | 1 & 2 | Stylisation CSS et design responsive | 13 jours |
-| 3 | Tous | Revue de code, test et présentation | 2 jour |
+Each section is built by **two developers** — one focuses on HTML, and the other on CSS.  
+In the next section, they **switch roles** to keep the work balanced.
 
----
-
-## ✅ Bonnes Pratiques
-
-- Toujours **sauvegarder le travail** régulièrement.  
-- Choisir une **palette de couleurs cohérente** et des **polices lisibles**.  
-- Tester souvent le rendu du site dans un navigateur.  
-- Respecter les consignes de structure et de design.  
-- Collaborer activement (ne pas travailler seul de son côté).  
+| Section | HTML | CSS |
+|----------|------|-----|
+| Hero Section | Person 1 | Person 2 |
+| Services | Person 2 | Person 1 |
+| Technologies | Person 3 | Person 4 |
+| Projects | Person 4 | Person 3 |
+| Reviews | Person 1 | Person 2 |
+| Contact | Person 2 | Person 1 |
 
 ---
 
-## 🧠 Objectif du Projet
+## ⚙️ 4. Workflow
 
-Ce projet nous permet de :
-- Apprendre à **collaborer en binôme** sur un même site web.  
-- Comprendre la **séparation structure (HTML)** et **style (CSS)**.  
-- Appliquer les bonnes pratiques d’un vrai projet professionnel.  
-- Créer un **portfolio moderne, propre et responsive**.  
-
----
-
-✏️ **Rédigé par :** PixelCraft  
-📅 **Date de création :** 11 octobre 2025  
-💼 **Projet :** Portfolio d’Équipe PixelCraft
+### 🪜 Step 1 — Clone the Repository
+```bash
+git clone https://github.com/Atriom/portfolio.git
+cd portfolio

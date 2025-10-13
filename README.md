@@ -1,62 +1,44 @@
-# 🌐 Portfolio d'PixelCraft
+# 🌐 Atriom
 
-Un site web moderne et responsive de **portfolio d’équipe PixelCraft**, développé en **HTML et CSS**.  
-Ce projet présente notre **équipe de développement web**, nos compétences, nos membres et nos projets communs dans un design élégant et professionnel.
-
----
-## Rules
-- [INSTRUCTIONS](INSTRUCTIONS.md)
+**Atriom** is a passionate team of web developers dedicated to creating modern, responsive, and high-quality websites.  
+We combine creativity and technology to bring digital ideas to life — from clean designs to powerful functionality.
 
 ---
 
-## 🚀 Présentation
+## 👥 About Us
 
-Ce site web sert de **portfolio officiel de notre équipe** — un espace pour présenter qui nous sommes, ce que nous faisons, et les projets que nous réalisons ensemble.  
-Il est entièrement responsive, simple à maintenir et pensé pour un rendu professionnel.
+We are a team of **four developers** who share the same vision:  
+to craft digital experiences that are both **beautiful** and **impactful**.
 
----
-
-## ✨ Fonctionnalités
-
-- 🎨 Design moderne et minimaliste  
-- 📱 Mise en page 100 % responsive (mobile, tablette et PC)  
-- 👥 Section des membres de l’équipe avec photos et rôles  
-- 💡 Présentation des projets avec effets au survol  
-- ⚡ Développé uniquement en HTML & CSS (sans framework)  
-- 🌙 Animations et transitions fluides
+At Atriom, we believe in collaboration, precision, and innovation.  
+Each project we build is a reflection of our teamwork and attention to detail.
 
 ---
 
-## 🧩 Sections
+## 💼 What We Do
 
-1. **Section d’accueil** – Présentation générale de l’équipe et slogan  
-2. **À propos** – Notre vision, nos valeurs et notre histoire  
-3. **Membres de l’équipe** – Profils avec photo, rôle et liens  
-4. **Projets** – Exemples de nos réalisations  
-5. **Contact** – Moyens de communication et formulaire  
-6. **Pied de page (Footer)** – Liens rapides et réseaux sociaux  
+- 🌍 **Website Development** – Building responsive and modern web solutions.  
+- 🎨 **UI / UX Design** – Designing intuitive and visually appealing interfaces.  
+- ⚙️ **Web Optimization** – Ensuring fast, accessible, and SEO-friendly websites.  
+- 💡 **Creative Solutions** – Turning ideas into reality with smart technologies.
 
 ---
 
-## 🛠️ Technologies Utilisées
+## 🧠 Our Mission
 
-- **HTML5**
-- **CSS3 (Flexbox & Grid)**
-- **Google Fonts**
-- **Font Awesome Icons**
+> To empower businesses and individuals with websites that inspire trust, engage visitors, and deliver results.
 
----
-
-## 🖼️ Aperçu
-
-> *(Ajoutez une capture d’écran une fois le site terminé)*  
-> Exemple :  
-> ![Aperçu du Portfolio d'Équipe](./preview.png)
+We don’t just build websites —  
+we build **digital identities** that make a difference.
 
 ---
 
-## ⚙️ Instructions d’Installation
+## 💬 Connect With Us
 
-1. Cloner le dépôt :
-   ```bash
-   git clone https://gitea.raquibi.space/PixelCraft/Portfolio.git
+📧 contact@atriom.dev  
+🌐 [www.atriom.dev](https://atriom.dev)  
+💻 Follow our work on GitHub soon!
+
+---
+
+> *Atriom — Crafting the web, one pixel at a time.*

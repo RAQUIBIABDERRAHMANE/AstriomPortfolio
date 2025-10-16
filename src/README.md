@@ -25,6 +25,7 @@ Each section is stored in its **own folder** with its own HTML and CSS files.
 Atriom/
 │
 ├── index.html
+├── style.css
 ├── css/
 │   └── global.css
 ├── Services/

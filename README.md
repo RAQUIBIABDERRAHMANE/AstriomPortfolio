@@ -1,6 +1,6 @@
-# 🌐 Atriom
+# 🌐 Astriom
 
-**Atriom** is a passionate team of web developers dedicated to creating modern, responsive, and high-quality websites.  
+**Astriom** is a passionate team of web developers dedicated to creating modern, responsive, and high-quality websites.  
 We combine creativity and technology to bring digital ideas to life — from clean designs to powerful functionality.
 
 ---

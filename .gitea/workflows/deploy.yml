@@ -4,12 +4,11 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # allows manual triggering
+  workflow_dispatch: # allows manual trigger from Gitea UI
 
 jobs:
   deploy:
-    # Match your self-hosted runner labels exactly
-    runs-on: [ubunto, master]
+    runs-on: [ubunto, master] # ✅ must match your runner labels exactly
 
     steps:
       - name: Vérifier la connexion SSH
@@ -25,10 +24,4 @@ jobs:
         run: |
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
           "cd '${{ secrets.REMOTE_PATH }}' && git pull"
-        shell: bash
-
-      - name: Redémarrer le service (optionnel)
-        run: |
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
-          "sudo systemctl restart myservice"
         shell: bash

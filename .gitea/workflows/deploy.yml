@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     # Match your self-hosted runner labels exactly
-    runs-on: [self-hosted, ubunto, master]
+    runs-on: [ubuntu, master]
 
     steps:
       - name: Vérifier la connexion SSH

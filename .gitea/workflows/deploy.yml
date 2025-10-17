@@ -1,0 +1,28 @@
+name: Déploiement via SSH
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    # Utiliser un runner self-hosted avec les labels que vous avez enregistrés.
+    # Votre runner a été enregistré avec les labels `ubuntu` et `master`.
+    runs-on: [self-hosted, ubuntu, master]
+
+    steps:
+      - name: Configurer la clé SSH
+        run: |
+          mkdir -p ~/.ssh
+          # Écrire la clé privée à partir du secret
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # Ajouter la clé d'hôte pour éviter l'interaction
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+        shell: bash
+
+      - name: Exécuter git pull sur le serveur distant
+        run: |
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "cd '${{ secrets.REMOTE_PATH }}' && git pull"
+        shell: bash

@@ -56,14 +56,15 @@ Atriom/
 Each section is built by **two developers** — one focuses on HTML, and the other on CSS.  
 In the next section, they **switch roles** to keep the work balanced.
 
-| Section | HTML | CSS |
-|----------|------|-----|
-| Hero Section | Abderrahmane | Hasnae |
-| Services | Hasnae | Abderrahmane |
-| Technologies | Ousama| Yasmine |
-| Projects | Yasmine | Ousama |
-| Reviews | Abderrahmane | Hasnae |
-| Contact | Ousama | Yasmine |
+| Section      | HTML         | CSS             | Notes             |
+| ------------ | ------------ | -------         | ----------------- |
+| Hero Section | Abderrahmane | Hasnae          | Primary devs      |
+| Services     | Hasnae       | Ousama          | Rotate CSS/HTML   |
+| Technologies | Ousama       | Yasmine         | Rotate CSS/HTML   |
+| Projects     | Yasmine      | Salma           | Lary joins as CSS |
+| Reviews      | Salma        | Abderrahmane    | Lary helps        |
+| Contact      | Ousama       | Hasnae          | Rotate CSS/HTML   |
+
 
 ---
 

@@ -10,7 +10,7 @@ We combine creativity and technology to bring digital ideas to life — from cle
 We are a team of **four developers** who share the same vision:  
 to craft digital experiences that are both **beautiful** and **impactful**.
 
-At Atriom, we believe in collaboration, precision, and innovation.  
+At Astriom, we believe in collaboration, precision, and innovation.  
 Each project we build is a reflection of our teamwork and attention to detail.
 
 ---
@@ -35,10 +35,10 @@ we build **digital identities** that make a difference.
 
 ## 💬 Connect With Us
 
-📧 contact@atriom.icu  
-🌐 [www.atriom.icu](https://atriom.icu)  
+📧 contact@astriom.icu  
+🌐 [www.astriom.icu](https://astriom.icu)  
 💻 Follow our work on GitHub soon!
 
 ---
 
-> *Atriom — Crafting the web, one pixel at a time.*
+> *Atsriom — Crafting the web, one pixel at a time.*

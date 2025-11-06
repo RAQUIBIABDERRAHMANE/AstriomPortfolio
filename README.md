@@ -35,8 +35,8 @@ we build **digital identities** that make a difference.
 
 ## 💬 Connect With Us
 
-📧 contact@atriom.dev  
-🌐 [www.atriom.dev](https://atriom.dev)  
+📧 contact@atriom.icu  
+🌐 [www.atriom.icu](https://atriom.icu)  
 💻 Follow our work on GitHub soon!
 
 ---

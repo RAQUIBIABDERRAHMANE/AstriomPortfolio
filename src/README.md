@@ -61,8 +61,8 @@ In the next section, they **switch roles** to keep the work balanced.
 | Hero Section | Abderrahmane | Hasnae          | Primary devs      |
 | Services     | Hasnae       | Ousama          | Rotate CSS/HTML   |
 | Technologies | Ousama       | Yasmine         | Rotate CSS/HTML   |
-| Projects     | Yasmine      | Salma           | Lary joins as CSS |
-| Reviews      | Salma        | Abderrahmane    | Lary helps        |
+| Projects     | Yasmine      | Salma           | Rotate CSS/HTML   |
+| Reviews      | Salma        | Abderrahmane    | Rotate CSS/HTML   |
 | Contact      | Ousama       | Hasnae          | Rotate CSS/HTML   |
 
 
@@ -73,7 +73,7 @@ In the next section, they **switch roles** to keep the work balanced.
 ### 🪜 Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/Atriom/portfolio.git
+git clone https://repos.raquibi.com/Atriom/portfolio.git
 cd portfolio
 # or if already have it make :
 git pull

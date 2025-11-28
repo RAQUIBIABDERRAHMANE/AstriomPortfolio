@@ -1,6 +1,6 @@
-# 👥 Atriom Team Instructions
+# 👥 Astriom Team Instructions
 
-These instructions define how our team will collaborate to build the **Atriom Portfolio Website** efficiently and consistently.
+These instructions define how our team will collaborate to build the **Astriom Portfolio Website** efficiently and consistently.
 
 ---
 
@@ -22,7 +22,7 @@ Each section is stored in its **own folder** with its own HTML and CSS files.
 ## 🗂️ 2. Folder & File Structure
 
 ```
-Atriom/
+Astriom/
 │
 ├── index.html
 ├── style.css
@@ -73,7 +73,7 @@ In the next section, they **switch roles** to keep the work balanced.
 ### 🪜 Step 1 — Clone the Repository
 
 ```bash
-git clone https://repos.raquibi.com/Atriom/portfolio.git
+git clone https://repos.raquibi.com/Astriom/portfolio.git
 cd portfolio
 # or if already have it make :
 git pull

@@ -104,27 +104,53 @@ git push origin main
 
 ### Color Palette
 
-- **Primary:** `#1E3A8A` (Deep Blue)
-- **Secondary:** `#3B82F6` (Bright Blue)
-- **Accent:** `#F59E0B` (Orange)
-- **Background:** `#F9FAFB` (Light Gray)
-- **Text:** `#1F2937` (Dark Gray)
+- **Primary:** `#6c5ce7` (Purple)
+- **Secondary:** `#a29bfe` (Light Purple)
+- **Accent:** `#fd79a8` (Pink)
+- **Dark:** `#2d3436` (Charcoal)
+- **Light:** `#f8f9fc` (Off White)
+- **Background:** Dark gradient `linear-gradient(135deg, #0c0c1e 0%, #1a1a3e 50%, #2d2d5a 100%)`
+- **Gradient (for text/buttons):** `linear-gradient(135deg, #6c5ce7, #a29bfe, #fd79a8)`
 
 ### Typography
 
-- **Headings:** `'Poppins', sans-serif`
-- **Body:** `'Inter', sans-serif`
+- **Font Family:** `'Poppins', 'Segoe UI', sans-serif`
+- **Font Weights:** 300 (Light), 400 (Regular), 600 (Semi-bold), 700 (Bold)
 - **Font Sizes:**
-  - H1: `3rem`
+  - H1: `3.5rem` (Desktop) / `2rem` (Mobile)
   - H2: `2.5rem`
-  - H3: `2rem`
-  - Body: `1rem`
+  - Body: `1.1rem`
+  - Small: `0.9rem`
 
 ### Spacing
 
 - Use consistent spacing: `8px, 16px, 24px, 32px, 48px, 64px`
-- Container max-width: `1200px`
-- Section padding: `64px 0`
+- Container max-width: `1300px`
+- Section padding: `100px 40px` (Desktop) / `40px 20px` (Mobile)
+- Gap between elements: `20px - 80px`
+
+### Special Effects
+
+- **Gradient Text:** Use `.gradient-text` class for colorful headings
+- **Organic Border Radius:** Use morphing blob shape for images
+  - Example: `border-radius: 62% 38% 46% 54% / 60% 30% 70% 40%;`
+- **Floating Animations:** Subtle float and morph animations for visual interest
+- **Glassmorphism:** Use `rgba(255,255,255,0.05)` backgrounds with blur
+- **Box Shadows:** Use purple-tinted shadows `rgba(108, 92, 231, 0.4)`
+
+### Buttons
+
+- **Primary Button:** Gradient background with glow shadow
+- **Outline Button:** Transparent with white border, hover reveals accent color
+- **Border Radius:** `50px` (pill shape)
+- **Padding:** `16px 35px`
+
+### Cards & Sections
+
+- Background: `rgba(255,255,255,0.05)` or `rgba(255,255,255,0.02)`
+- Border: `1px solid rgba(255,255,255,0.1)`
+- Border Radius: `20px - 30px`
+- Hover: Lift with `translateY(-15px)` and purple shadow
 
 ---
 

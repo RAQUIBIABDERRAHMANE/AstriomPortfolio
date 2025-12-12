@@ -7,7 +7,7 @@ We combine creativity and technology to bring digital ideas to life — from cle
 
 ## 👥 About Us
 
-We are a team of **four developers** who share the same vision:  
+We are a team of **five developers** who share the same vision:  
 to craft digital experiences that are both **beautiful** and **impactful**.
 
 At Astriom, we believe in collaboration, precision, and innovation.  

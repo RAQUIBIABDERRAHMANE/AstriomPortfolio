@@ -59,11 +59,11 @@ In the next section, they **switch roles** to keep the work balanced.
 | Section      | HTML         | CSS             | Notes             |
 | ------------ | ------------ | -------         | ----------------- |
 | Hero Section | Abderrahmane | Hasnae          | Primary devs      |
-| Services     | Hasnae       | Ousama          | Rotate CSS/HTML   |
-| Technologies | Ousama       | Yasmine         | Rotate CSS/HTML   |
-| Projects     | Yasmine      | Salma           | Rotate CSS/HTML   |
-| Reviews      | Salma        | Abderrahmane    | Rotate CSS/HTML   |
-| Contact      | Ousama       | Hasnae          | Rotate CSS/HTML   |
+| Services     | Yasmine      | Ousama          | Rotate CSS/HTML   |
+| Technologies | Salma        | Hasnae          | Rotate CSS/HTML   |
+| Projects     | Ousama       | Abderrahmane    | Rotate CSS/HTML   |
+| Reviews      | Abderrahmane | Salma           | Rotate CSS/HTML   |
+| Contact      | Hasnae       | Yasmine         | Rotate CSS/HTML   |
 
 
 ---

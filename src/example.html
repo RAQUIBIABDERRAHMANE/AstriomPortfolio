@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css globale/global.css">
+  <link rel="stylesheet" href="example.css">
+  <title>Design System Examples - Portfolio</title>
+</head>
+
+<body>
+  <!-- Examples Navigation -->
+  <nav class="examples-nav">
+    <div class="container">
+      <h1>🎨 Design System Examples</h1>
+      <p>This page demonstrates all available styles and components</p>
+    </div>
+  </nav>
+
+  <!-- Color Palette Section -->
+  <section id="colors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">Color Palette</h2>
+      </div>
+      <div class="color-grid">
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--primary);"></div>
+          <h4>Primary</h4>
+          <p>#001D39</p>
+          <code>var(--primary)</code>
+        </div>
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--secondary);"></div>
+          <h4>Secondary</h4>
+          <p>#0A4174</p>
+          <code>var(--secondary)</code>
+        </div>
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--accent);"></div>
+          <h4>Accent</h4>
+          <p>#4E8EA2</p>
+          <code>var(--accent)</code>
+        </div>
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--neutral);"></div>
+          <h4>Neutral</h4>
+          <p>#6EA2B3</p>
+          <code>var(--neutral)</code>
+        </div>
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--text);"></div>
+          <h4>Text</h4>
+          <p>#BDD8E9</p>
+          <code>var(--text)</code>
+        </div>
+        <div class="color-box">
+          <div class="color-sample" style="background: var(--text-light);"></div>
+          <h4>Text Light</h4>
+          <p>#7BBDE8</p>
+          <code>var(--text-light)</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typography Section -->
+  <section id="typography">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Typography</h2>
+      </div>
+      <div class="typography-examples">
+        <h1>Heading 1 - Main Title</h1>
+        <h2>Heading 2 - Section Title</h2>
+        <h3>Heading 3 - Subsection Title</h3>
+        <h4>Heading 4 - Card Title</h4>
+        <h5>Heading 5 - Small Title</h5>
+        <h6>Heading 6 - Tiny Title</h6>
+        <p class="text-large">Large paragraph text - Perfect for introductions and important content.</p>
+        <p>Regular paragraph text - This is the default text size used throughout the site. It's comfortable to read and maintains good readability.</p>
+        <p class="text-small">Small text - Used for captions and secondary information.</p>
+        <p class="gradient-text">Gradient Text - Special text with color gradient effect</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buttons Section -->
+  <section id="buttons">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Buttons</h2>
+      </div>
+      
+      <div class="button-group">
+        <h3>Primary Buttons</h3>
+        <div class="button-row">
+          <button class="btn btn-primary">
+            <span>Primary Button</span>
+          </button>
+          <button class="btn btn-primary">
+            <span>With Icon</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <button class="btn btn-primary" disabled>
+            <span>Disabled</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <h3>Outline Buttons</h3>
+        <div class="button-row">
+          <button class="btn btn-outline">
+            <span>Outline Button</span>
+          </button>
+          <button class="btn btn-outline">
+            <span>With Icon</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <h3>Button Sizes</h3>
+        <div class="button-row">
+          <button class="btn btn-primary btn-small">Small</button>
+          <button class="btn btn-primary">Regular</button>
+          <button class="btn btn-primary btn-large">Large</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section id="cards">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Cards</h2>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Basic Card -->
+        <div class="card">
+          <h3>Basic Card</h3>
+          <p>This is a basic card with default styling. It includes a title and description.</p>
+        </div>
+
+        <!-- Card with Icon -->
+        <div class="card">
+          <div class="card-icon">🎨</div>
+          <h3>Card with Icon</h3>
+          <p>Cards can include icons or emojis for visual interest.</p>
+        </div>
+
+        <!-- Card with Image -->
+        <div class="card">
+          <div class="card-image">
+            <div style="width: 100%; height: 150px; background: linear-gradient(135deg, var(--secondary), var(--accent)); border-radius: 10px 10px 0 0; margin: -2rem -2rem 1rem;"></div>
+          </div>
+          <h3>Card with Image</h3>
+          <p>This card includes an image placeholder at the top.</p>
+        </div>
+
+        <!-- Interactive Card -->
+        <div class="card card-interactive">
+          <h3>Interactive Card</h3>
+          <p>Hover over this card to see the interaction effect!</p>
+          <a href="#" class="card-link">Learn More →</a>
+        </div>
+
+        <!-- Highlighted Card -->
+        <div class="card card-highlight">
+          <div class="card-badge">Featured</div>
+          <h3>Highlighted Card</h3>
+          <p>This card stands out with special styling and a badge.</p>
+        </div>
+
+        <!-- Card with Tags -->
+        <div class="card">
+          <h3>Card with Tags</h3>
+          <p>Tags help categorize and organize content.</p>
+          <div class="card-tags">
+            <span>React</span>
+            <span>CSS</span>
+            <span>Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Forms Section -->
+  <section id="forms">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Form Elements</h2>
+      </div>
+
+      <div class="form-examples">
+        <div class="form-column">
+          <h3>Inputs</h3>
+          <div class="form-group">
+            <label>Text Input</label>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label>Email Input</label>
+            <input type="email" placeholder="your.email@example.com">
+          </div>
+          <div class="form-group">
+            <label>Password Input</label>
+            <input type="password" placeholder="••••••••">
+          </div>
+          <div class="form-group">
+            <label>Disabled Input</label>
+            <input type="text" placeholder="Disabled field" disabled>
+          </div>
+        </div>
+
+        <div class="form-column">
+          <h3>Other Elements</h3>
+          <div class="form-group">
+            <label>Textarea</label>
+            <textarea rows="4" placeholder="Enter your message..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Select Dropdown</label>
+            <select>
+              <option>Choose an option</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox">
+              <span>Checkbox option</span>
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="radio" name="radio-example">
+              <span>Radio option 1</span>
+            </label>
+            <label>
+              <input type="radio" name="radio-example">
+              <span>Radio option 2</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grid Layouts Section -->
+  <section id="grids">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2 class="section-title">Grid Layouts</h2>
+      </div>
+
+      <div class="grid-examples">
+        <h3>2 Column Grid</h3>
+        <div class="grid-2">
+          <div class="grid-item">Column 1</div>
+          <div class="grid-item">Column 2</div>
+        </div>
+
+        <h3 class="mt-4">3 Column Grid</h3>
+        <div class="grid-3">
+          <div class="grid-item">Column 1</div>
+          <div class="grid-item">Column 2</div>
+          <div class="grid-item">Column 3</div>
+        </div>
+
+        <h3 class="mt-4">4 Column Grid</h3>
+        <div class="grid-4">
+          <div class="grid-item">Column 1</div>
+          <div class="grid-item">Column 2</div>
+          <div class="grid-item">Column 3</div>
+          <div class="grid-item">Column 4</div>
+        </div>
+
+        <h3 class="mt-4">Auto-fit Grid (Responsive)</h3>
+        <div class="grid-auto">
+          <div class="grid-item">Item 1</div>
+          <div class="grid-item">Item 2</div>
+          <div class="grid-item">Item 3</div>
+          <div class="grid-item">Item 4</div>
+          <div class="grid-item">Item 5</div>
+          <div class="grid-item">Item 6</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Utility Classes Section -->
+  <section id="utilities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">07</span>
+        <h2 class="section-title">Utility Classes</h2>
+      </div>
+
+      <div class="utilities-examples">
+        <h3>Spacing Utilities</h3>
+        <div class="utility-demo">
+          <div class="demo-box mt-1">mt-1 (margin-top: 1rem)</div>
+          <div class="demo-box mt-2">mt-2 (margin-top: 2rem)</div>
+          <div class="demo-box mt-3">mt-3 (margin-top: 3rem)</div>
+          <div class="demo-box mt-4">mt-4 (margin-top: 4rem)</div>
+        </div>
+
+        <div class="utility-demo">
+          <div class="demo-box mb-1">mb-1 (margin-bottom: 1rem)</div>
+          <div class="demo-box pt-2">pt-2 (padding-top: 2rem)</div>
+          <div class="demo-box pb-3">pb-3 (padding-bottom: 3rem)</div>
+        </div>
+
+        <h3 class="mt-4">Text Alignment</h3>
+        <div class="utility-demo">
+          <p class="text-left">Left aligned text (default)</p>
+          <p class="text-center">Center aligned text</p>
+          <p class="text-right">Right aligned text</p>
+        </div>
+
+        <h3 class="mt-4">Display Utilities</h3>
+        <div class="utility-demo">
+          <div class="flex-row">
+            <div class="demo-box">Flex Item 1</div>
+            <div class="demo-box">Flex Item 2</div>
+            <div class="demo-box">Flex Item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Animations Section -->
+  <section id="animations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">08</span>
+        <h2 class="section-title">Animations</h2>
+      </div>
+
+      <div class="animations-grid">
+        <div class="animation-demo">
+          <div class="card anim-fade-in">
+            <h4>Fade In</h4>
+            <p>Smooth fade-in animation</p>
+          </div>
+        </div>
+
+        <div class="animation-demo">
+          <div class="card anim-slide-left">
+            <h4>Slide In Left</h4>
+            <p>Slides from the left</p>
+          </div>
+        </div>
+
+        <div class="animation-demo">
+          <div class="card anim-slide-right">
+            <h4>Slide In Right</h4>
+            <p>Slides from the right</p>
+          </div>
+        </div>
+
+        <div class="animation-demo">
+          <div class="card anim-scale">
+            <h4>Scale Up</h4>
+            <p>Scales from center</p>
+          </div>
+        </div>
+
+        <div class="animation-demo">
+          <div class="card anim-bounce">
+            <h4>Bounce</h4>
+            <p>Bouncing animation</p>
+          </div>
+        </div>
+
+        <div class="animation-demo">
+          <div class="card anim-rotate">
+            <h4>Rotate</h4>
+            <p>Rotating animation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Icons & SVG Section -->
+  <section id="icons">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">09</span>
+        <h2 class="section-title">Icons & SVG</h2>
+      </div>
+
+      <div class="icons-grid">
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          </svg>
+          <p>Home</p>
+        </div>
+
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 16v-4M12 8h.01"/>
+          </svg>
+          <p>Info</p>
+        </div>
+
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          <p>Message</p>
+        </div>
+
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+          <p>Code</p>
+        </div>
+
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="7" height="7"/>
+            <rect x="14" y="3" width="7" height="7"/>
+            <rect x="14" y="14" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+          </svg>
+          <p>Grid</p>
+        </div>
+
+        <div class="icon-box">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24"/>
+          </svg>
+          <p>Settings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Badges & Tags Section -->
+  <section id="badges">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">10</span>
+        <h2 class="section-title">Badges & Tags</h2>
+      </div>
+
+      <div class="badges-examples">
+        <h3>Badges</h3>
+        <div class="badges-row">
+          <span class="badge">Default</span>
+          <span class="badge badge-primary">Primary</span>
+          <span class="badge badge-success">Success</span>
+          <span class="badge badge-warning">Warning</span>
+          <span class="badge badge-danger">Danger</span>
+        </div>
+
+        <h3 class="mt-4">Tags</h3>
+        <div class="tags-row">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB</span>
+        </div>
+
+        <h3 class="mt-4">Pill Tags</h3>
+        <div class="tags-row">
+          <span class="tag tag-pill">Design</span>
+          <span class="tag tag-pill">Development</span>
+          <span class="tag tag-pill">Marketing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="examples-footer">
+    <div class="container text-center">
+      <p>&copy; 2025 Design System Examples. All styles from global.css</p>
+      <p class="mt-2">
+        <a href="index.html">← Back to Portfolio</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

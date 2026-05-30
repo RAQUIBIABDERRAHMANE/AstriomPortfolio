@@ -14,5 +14,3 @@
   - Description : validation front-end, retour d'erreur utilisateur, et envoi AJAX (`fetch`) vers une API ou service (Formspree, Netlify, etc.).
   - Où l'ajouter : `src/Contact/index.html` + `src/Contact/style.css`.
   - Notes : valider email/texte, afficher messages d'erreur success/fail, sauvegarder brouillon localement (optionnel) avec `localStorage`.
-
-Si tu veux, je peux implémenter l'une de ces trois fonctionnalités maintenant — dis-moi laquelle je code en premier.
